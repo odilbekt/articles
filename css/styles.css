@@ -31,7 +31,7 @@ body {
 .article-left {
 	height: 100vh;
 	width: 50%;
-	background-image: url(../img/tabiyat.jpg);
+	background-image: url(../img/toglar.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -69,14 +69,21 @@ body {
 
 .article-left-btn::before {
 	display: inline-block;
-	background-image: url(../img/);
+	background-image: url(../img/star.png);
 	background-repeat: no-repeat;
-	background-size: cover;
 	background-position: center center;
+	background-size: cover;
 	width: 20px;
 	height: 20px;
 	margin-right: 12px;
+	content: '';
 }
+
+.article-left-btn:hover {
+	opacity: 0.6;
+	transition: all 0.4s ease;
+}
+/*  */
 
 .article-right {
 	width: 50%;
@@ -168,7 +175,7 @@ body {
 
 .article-right-info-text::before {
 	display: inline-block;
-	background-image: url(../);
+	background-image: url(../img/watch.svg);
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -182,7 +189,7 @@ body {
 
 .article-right-info-text2::before {
 	display: inline-block;
-	background-image: url(../);
+	background-image: url(../img/view.svg);
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
