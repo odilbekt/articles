@@ -1,3 +1,8 @@
+:root {
+	--blue-color: #1e90ff;
+	--white-color: #fff;
+}
+
 html {
 	box-sizing: border-box;
 	height: 100%;
@@ -10,7 +15,7 @@ html {
 }
 
 *:focus {
-	outline: 2px dotted #1e90ff;
+	outline: 2px dotted var(--blue-color);
 	outline-offset: 3px;
 }
 
@@ -39,7 +44,7 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	color: #ffffff;
+	color: var(--white-color) fff;
 }
 
 .article-left__info {
@@ -58,8 +63,8 @@ body {
 	display: flex;
 	border: none;
 	padding: 12px 24px;
-	background-color: #1e90ff;
-	color: #fff;
+	background-color: var(--blue-color);
+	color: var(--white-color);
 	text-transform: uppercase;
 	font-style: 16px;
 	font-weight: 400;
@@ -144,7 +149,7 @@ body {
 }
 
 .article-right__info-title a:hover {
-	color: #1e90ff;
+	color: var(--blue-color);
 }
 
 .article-right__info-title a:active {
@@ -198,10 +203,10 @@ body {
 	cursor: pointer;
 	width: 100%;
 	border: none;
-	background-color: #1e90ff;
+	background-color: var(--blue-color);
 	padding-top: 12px;
 	padding-bottom: 12px;
-	color: #fff;
+	color: var(--white-color);
 	font-weight: 700;
 	font-style: 14px;
 	border: 1px solid transparent;
@@ -209,7 +214,7 @@ body {
 }
 
 .btn:hover {
-	border: 1px solid #1e90ff;
-	background-color: #fff;
+	border: 1px solid var(--blue-color);
+	background-color: var(--white-color);
 	color: #222222;
 }
